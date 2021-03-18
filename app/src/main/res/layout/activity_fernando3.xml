@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fernando3"
+    android:background="@drawable/fondo6"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/pregunta"
+            android:layout_marginTop="50dp"
+            android:text="Bienvenido a Yucasoft"
+            style="@style/Platform.MaterialComponents"
+            android:fontFamily="sans-serif-black"
+            android:textSize="35sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/presentacion"
+            android:layout_marginTop="10dp"
+            android:text="Yucasoft es una empresa 100% Yucateca de base tecnológica con más de 15 años de experiencia especializada en el desarrollo e integración de soluciones de Software y servicio técnico, que se caracteriza por la relación calidad, precio, ajustándose a los presupuestos de sus clientes."
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:fontFamily="sans-serif-black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/Terminar"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="Terminar" />
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
